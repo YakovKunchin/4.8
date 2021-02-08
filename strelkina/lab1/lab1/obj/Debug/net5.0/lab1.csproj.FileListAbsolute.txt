@@ -1,0 +1,16 @@
+C:\git\4.8\strelkina\lab1\lab1\bin\Debug\net5.0\lab1.exe
+C:\git\4.8\strelkina\lab1\lab1\bin\Debug\net5.0\lab1.deps.json
+C:\git\4.8\strelkina\lab1\lab1\bin\Debug\net5.0\lab1.runtimeconfig.json
+C:\git\4.8\strelkina\lab1\lab1\bin\Debug\net5.0\lab1.runtimeconfig.dev.json
+C:\git\4.8\strelkina\lab1\lab1\bin\Debug\net5.0\lab1.dll
+C:\git\4.8\strelkina\lab1\lab1\bin\Debug\net5.0\ref\lab1.dll
+C:\git\4.8\strelkina\lab1\lab1\bin\Debug\net5.0\lab1.pdb
+C:\git\4.8\strelkina\lab1\lab1\obj\Debug\net5.0\lab1.csprojAssemblyReference.cache
+C:\git\4.8\strelkina\lab1\lab1\obj\Debug\net5.0\lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\4.8\strelkina\lab1\lab1\obj\Debug\net5.0\lab1.AssemblyInfoInputs.cache
+C:\git\4.8\strelkina\lab1\lab1\obj\Debug\net5.0\lab1.AssemblyInfo.cs
+C:\git\4.8\strelkina\lab1\lab1\obj\Debug\net5.0\lab1.csproj.CoreCompileInputs.cache
+C:\git\4.8\strelkina\lab1\lab1\obj\Debug\net5.0\lab1.dll
+C:\git\4.8\strelkina\lab1\lab1\obj\Debug\net5.0\ref\lab1.dll
+C:\git\4.8\strelkina\lab1\lab1\obj\Debug\net5.0\lab1.pdb
+C:\git\4.8\strelkina\lab1\lab1\obj\Debug\net5.0\lab1.genruntimeconfig.cache
