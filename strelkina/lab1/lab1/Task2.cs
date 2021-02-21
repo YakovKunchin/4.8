@@ -16,13 +16,13 @@ namespace lab1
             
             var computer = new Computer();
             
-            for (var i = 0; i <= 12_000; i += 500)
+            for (var i = 0; i <= 1_200_000; i += 50000)
             {
                 var byVariant1 = computer.TimeItTakes(() => { new double[i].Variant1(); });
                 timeByVariant1.Add(byVariant1);
 
-                var byVariant2 = computer.TimeItTakes(() => { new LinkedList<double>().Variant2(i); });
-                timeByVariant2.Add(byVariant2);
+                //var byVariant2 = computer.TimeItTakes(() => { new LinkedList<double>().Variant2(i); });
+                //timeByVariant2.Add(byVariant2);
                 
                 var byVariant3 = computer.TimeItTakes(() => { new ArrayList(i).Variant3(); });
                 timeByVariant3.Add(byVariant3);
@@ -30,9 +30,9 @@ namespace lab1
 
             await new ResultWriter().Write(new List<KeyValuePair<string, List<long>>>()
             {
-                KeyValuePair.Create($"{nameof(Task2)} {nameof(timeByVariant1)}", timeByVariant1),
-                KeyValuePair.Create($"{nameof(Task2)} {nameof(timeByVariant2)}", timeByVariant2),
-                KeyValuePair.Create($"{nameof(Task2)} {nameof(timeByVariant3)}", timeByVariant3)
+                KeyValuePair.Create($"{nameof(Task2)} {nameof(timeByVariant1)}, big range", timeByVariant1),
+                //KeyValuePair.Create($"{nameof(Task2)} {nameof(timeByVariant2)}", timeByVariant2),
+                KeyValuePair.Create($"{nameof(Task2)} {nameof(timeByVariant3)}, big range", timeByVariant3)
             });
         }
     }

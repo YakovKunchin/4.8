@@ -8,7 +8,7 @@ namespace lab1
         {
             await new Task1().Execute();
             await new Task2().Execute();
-            await new Task3().Execute();
+            //await new Task3().Execute();
         }
     }
 }

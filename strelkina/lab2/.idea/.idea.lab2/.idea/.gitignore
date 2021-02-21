@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.lab2.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\git\4.8\strelkina\lab2\.idea\.idea.lab2\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
