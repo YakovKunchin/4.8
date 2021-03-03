@@ -35,7 +35,8 @@ namespace lab2
             }
         }
     }
-
+    
+    
     public class FromWebToLocal
     {
         public void Execute()
