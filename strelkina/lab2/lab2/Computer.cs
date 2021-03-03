@@ -5,7 +5,7 @@ namespace lab2
 {
     public class Computer
     {
-        public long TimeItTakes(Action action)
+       public long TimeItTakes(Action action)
         {
             Stopwatch st = new();
             st.Start();
