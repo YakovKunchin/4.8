@@ -13,11 +13,13 @@ void randomize_matrix(int** matrix, int n, int m) {
 	return;
 }
 
-void do_work(int n1, int m1, int**& matrix1)
+int** create_matrix(int n1, int m1)
 {
-	matrix1 = static_cast<int**>(malloc(sizeof(int*) * n1));
+	int** matrix = static_cast<int**>(malloc(sizeof(int*) * n1));
 	for (int i = 0; i < n1; i++)
-		matrix1[i] = static_cast<int*>(malloc(sizeof(int) * m1));
+		matrix[i] = static_cast<int*>(malloc(sizeof(int) * m1));
+
+	return matrix;
 }
 
 int main() {
@@ -27,20 +29,14 @@ int main() {
 	int n2 = 500;
 	int m2 = 1200;
 
-	int** matrix1;
-	do_work(n1, m1, matrix1);
-
-	int** matrix2 = static_cast<int**>(malloc(sizeof(int*) * n2));
-	for (int i = 0; i < n2; i++)
-		matrix2[i] = static_cast<int*>(malloc(sizeof(int) * m2));
+	int** matrix1 = create_matrix(n1, m1);
+	int** matrix2 = create_matrix(n2, m2);
 
 	//Генерируем случайные матрицы для умножения
 	randomize_matrix(matrix1, n1, m1);
 	randomize_matrix(matrix2, n2, m2);
 
-	int** result = static_cast<int**>(malloc(sizeof(int*) * n1));;
-	for (int i = 0; i < n1; i++)
-		result[i] = static_cast<int*>(malloc(sizeof(int) * m2));
+	int** result = create_matrix(n1, m2);
 
 	//Устанавливаем число потоков
 	int threadsNum = 2;
